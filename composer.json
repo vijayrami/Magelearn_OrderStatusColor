@@ -1,0 +1,23 @@
+{
+    "name": "magelearn/module-orderstatuscolor",
+    "description": "Changes the color of the order status column in the UI grid, based on the current status of the order.",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vijay Rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\OrderStatusColor\\": ""
+        }
+    }
+}
